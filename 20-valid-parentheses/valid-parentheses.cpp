@@ -24,6 +24,6 @@ public:
                 }
             }
         }
-        return stck.empty();        
+        return stck.empty();  //checking if all pairs exist      
     }
 };
