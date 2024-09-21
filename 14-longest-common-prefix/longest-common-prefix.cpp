@@ -14,6 +14,7 @@ public:
         }
         
         if(minstr == "") {  
+            return "";
         }
         
         int minlen = minstr.length();
