@@ -26,13 +26,14 @@ public:
             }
             curr = curr->next;
         }
+        
         if(list1 != NULL){
             curr->next = list1;
         }
         else{
             curr->next = list2;
         }
-        
+
         return newList.next;
     }
 };
