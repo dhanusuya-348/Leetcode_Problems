@@ -32,7 +32,6 @@ public:
         else{
             curr->next = list2;
         }
-        
         return newList.next;
     }
 };
