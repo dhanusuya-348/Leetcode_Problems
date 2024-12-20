@@ -2,11 +2,12 @@ class Solution {
 public:
     int mySqrt(int x) {
         int low=1;
-        long high=x;
+        int high=x;
         long mid=0;
         while(low<=high){
-            //mid = low+((high-low)/2);
-            mid = (low+high)/2;
+            //when high is an int, this formula below can be used
+            mid = low+((high-low)/2);
+            //mid = (low+high)/2;
             if((mid*mid)<x){
                 low=mid+1;
             }
