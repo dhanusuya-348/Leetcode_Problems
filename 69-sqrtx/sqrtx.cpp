@@ -6,6 +6,7 @@ public:
         long mid=0;
         while(low<=high){
             mid = low+((high-low)/2);
+            //mid = (low+high)/2;
             if((mid*mid)<x){
                 low=mid+1;
             }
