@@ -4,7 +4,9 @@ class Solution:
         totalsum = sum(nums)
         sum1=0
         for i in range(len(nums)-1):
-            sum1 += nums[i]
+            #sum1 = sum2 = 0
+            sum1 += nums[i] 
+            #sum1 = sum(nums[:i+1])
             sum2 = totalsum - sum1
             if(sum1>=sum2):
                 ans += 1
